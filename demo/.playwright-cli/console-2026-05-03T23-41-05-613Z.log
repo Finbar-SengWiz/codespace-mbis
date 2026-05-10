@@ -1,0 +1,6 @@
+[      83ms] [LOG] INTERNAL LOGIC TESTS:
+Collision detected: PASS
+Boundary Left: PASS
+Line Sweep: PASS
+ @ http://localhost:8080/tetris.html:581
+[     222ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:8080/favicon.ico:0

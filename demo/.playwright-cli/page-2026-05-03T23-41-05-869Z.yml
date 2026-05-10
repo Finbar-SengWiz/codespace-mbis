@@ -1,0 +1,25 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - heading "TETRIS" [level=1] [ref=e6]
+      - button "START GAME" [ref=e7] [cursor=pointer]
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11]: Next
+        - generic [ref=e13]:
+          - generic [ref=e14]: Score
+          - generic [ref=e15]: "0"
+        - generic [ref=e16]:
+          - generic [ref=e17]: Level
+          - generic [ref=e18]: "1"
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - text: "Arrows: Move & Rotate"
+          - text: "Space: Hard Drop"
+          - text: "P: Pause"
+        - 'button "🔊 Sound: ON" [ref=e21] [cursor=pointer]'
+  - generic [ref=e22]:
+    - text: "INTERNAL LOGIC TESTS:"
+    - text: "Collision detected: PASS"
+    - text: "Boundary Left: PASS"
+    - text: "Line Sweep: PASS"
