@@ -1,0 +1,173 @@
+- generic [ref=e2]:
+  - list [ref=e10]:
+    - listitem [ref=e11]:
+      - link "Overview" [ref=e13] [cursor=pointer]:
+        - /url: http://localhost:8501/
+        - generic [ref=e16]: 🏠
+        - paragraph [ref=e19]: Overview
+    - listitem [ref=e20]:
+      - link "Budget & Expenses" [ref=e22] [cursor=pointer]:
+        - /url: http://localhost:8501/budget
+        - generic [ref=e25]: 💰
+        - paragraph [ref=e28]: Budget & Expenses
+    - listitem [ref=e29]:
+      - link "Study Load" [ref=e31] [cursor=pointer]:
+        - /url: http://localhost:8501/study
+        - generic [ref=e34]: 📚
+        - paragraph [ref=e37]: Study Load
+    - listitem [ref=e38]:
+      - link "Loan Projection" [ref=e40] [cursor=pointer]:
+        - /url: http://localhost:8501/loan
+        - generic [ref=e43]: 🎓
+        - paragraph [ref=e46]: Loan Projection
+  - generic [ref=e3]:
+    - banner [ref=e50]:
+      - generic [ref=e53]:
+        - button "Deploy" [ref=e55] [cursor=pointer]:
+          - generic [ref=e57]: Deploy
+        - button "Main menu" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+    - generic [ref=e63]:
+      - heading "Overview" [level=1] [ref=e68]:
+        - text: Overview
+        - generic [ref=e69]:
+          - link "Link to heading":
+            - /url: "#overview"
+            - img
+      - generic [ref=e71]:
+        - button "Load Sample Data" [active] [ref=e76] [cursor=pointer]:
+          - paragraph [ref=e80]: Load Sample Data
+        - button "Clear All Data" [ref=e85] [cursor=pointer]:
+          - paragraph [ref=e89]: Clear All Data
+      - separator [ref=e96]
+      - heading "Wellbeing Balance Score — Academic & Financial" [level=3] [ref=e101]:
+        - text: Wellbeing Balance Score — Academic & Financial
+        - generic [ref=e102]:
+          - link "Link to heading":
+            - /url: "#wellbeing-balance-score-academic-and-financial"
+            - img
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - paragraph [ref=e112]: 🟢 Healthy
+          - button "Help for 🟢 Healthy" [ref=e301] [cursor=pointer]:
+            - img [ref=e117]
+        - paragraph [ref=e122]: 30%
+      - paragraph [ref=e129]: Set an overall budget limit in Budget & Expenses to include spending in this score.
+      - separator [ref=e134]
+      - heading "This Week vs Last Week" [level=3] [ref=e139]:
+        - text: This Week vs Last Week
+        - generic [ref=e140]:
+          - link "Link to heading":
+            - /url: "#this-week-vs-last-week"
+            - img
+      - generic [ref=e142]:
+        - generic [ref=e147]:
+          - paragraph [ref=e150]: Variable Spending
+          - paragraph [ref=e153]: $0
+        - generic [ref=e165]:
+          - paragraph [ref=e168]: Work Hours
+          - paragraph [ref=e171]: 0.0 hrs
+        - generic [ref=e183]:
+          - paragraph [ref=e186]: Study Hours
+          - paragraph [ref=e189]: 0.0 hrs
+      - separator [ref=e201]
+      - heading "Weekly Overview — Work, Study & Spending" [level=3] [ref=e206]:
+        - text: Weekly Overview — Work, Study & Spending
+        - generic [ref=e207]:
+          - link "Link to heading":
+            - /url: "#weekly-overview-work-study-and-spending"
+            - img
+      - generic [ref=e307]:
+        - generic [ref=e309]:
+          - button "Show data" [ref=e312] [cursor=pointer]:
+            - img [ref=e313]
+          - button "Fullscreen" [ref=e318] [cursor=pointer]:
+            - img [ref=e319]
+        - generic [ref=e322]:
+          - generic "Vega visualization" [ref=e323]:
+            - img [ref=e324]:
+              - generic [ref=e329]:
+                - 'generic "X-axis for a discrete scale with 12 values: 2026-12, 2026-13, 2026-14, 2026-15, 2026-16, ending with 2026-25" [ref=e333]':
+                  - generic [ref=e335]:
+                    - generic:
+                      - generic: 2026-12
+                      - generic: 2026-13
+                      - generic: 2026-14
+                      - generic: 2026-15
+                      - generic: 2026-16
+                      - generic: 2026-17
+                      - generic: 2026-18
+                      - generic: 2026-19
+                      - generic: 2026-21
+                      - generic: 2026-22
+                      - generic: 2026-23
+                      - generic: 2026-25
+                - generic "Y-axis for a linear scale with values from 0 to 160" [ref=e336]:
+                  - generic [ref=e338]:
+                    - generic:
+                      - generic: "0"
+                      - generic: "20"
+                      - generic: "40"
+                      - generic: "60"
+                      - generic: "80"
+                      - generic: "100"
+                      - generic: "120"
+                      - generic: "140"
+                      - generic: "160"
+                - generic [ref=e339]:
+                  - 'generic "Week: 2026-12; value -- streamlit-generated: 15; : Work Hours; value: 15; color: Work Hours" [ref=e344]'
+                  - generic [ref=e345]:
+                    - generic:
+                      - generic:
+                        - 'generic "Week: 2026-12; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours"'
+                  - 'generic "Week: 2026-12; value -- streamlit-generated: 140.5; : Variable Spending ($); value: 140.5; color: Variable Spending ($)" [ref=e351]'
+                - generic [ref=e352]:
+                  - 'generic "Week: 2026-12; value -- streamlit-generated: 15; : Work Hours; value: 15; color: Work Hours" [ref=e353]'
+                  - 'generic "Week: 2026-13; value -- streamlit-generated: 10; : Work Hours; value: 10; color: Work Hours" [ref=e354]'
+                  - 'generic "Week: 2026-14; value -- streamlit-generated: 15; : Work Hours; value: 15; color: Work Hours" [ref=e355]'
+                  - 'generic "Week: 2026-15; value -- streamlit-generated: 15; : Work Hours; value: 15; color: Work Hours" [ref=e356]'
+                  - 'generic "Week: 2026-16; value -- streamlit-generated: 11; : Work Hours; value: 11; color: Work Hours" [ref=e357]'
+                  - 'generic "Week: 2026-17; value -- streamlit-generated: 15; : Work Hours; value: 15; color: Work Hours" [ref=e358]'
+                  - 'generic "Week: 2026-18; value -- streamlit-generated: 15; : Work Hours; value: 15; color: Work Hours" [ref=e359]'
+                  - 'generic "Week: 2026-19; value -- streamlit-generated: 10; : Work Hours; value: 10; color: Work Hours" [ref=e360]'
+                  - 'generic "Week: 2026-21; value -- streamlit-generated: 0; : Work Hours; value: 0; color: Work Hours" [ref=e361]'
+                  - 'generic "Week: 2026-22; value -- streamlit-generated: 0; : Work Hours; value: 0; color: Work Hours" [ref=e362]'
+                  - 'generic "Week: 2026-23; value -- streamlit-generated: 0; : Work Hours; value: 0; color: Work Hours" [ref=e363]'
+                  - 'generic "Week: 2026-25; value -- streamlit-generated: 0; : Work Hours; value: 0; color: Work Hours" [ref=e364]'
+                  - 'generic "Week: 2026-12; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e365]'
+                  - 'generic "Week: 2026-13; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e366]'
+                  - 'generic "Week: 2026-14; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e367]'
+                  - 'generic "Week: 2026-15; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e368]'
+                  - 'generic "Week: 2026-16; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e369]'
+                  - 'generic "Week: 2026-17; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e370]'
+                  - 'generic "Week: 2026-18; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e371]'
+                  - 'generic "Week: 2026-19; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e372]'
+                  - 'generic "Week: 2026-21; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e373]'
+                  - 'generic "Week: 2026-22; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e374]'
+                  - 'generic "Week: 2026-23; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e375]'
+                  - 'generic "Week: 2026-25; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e376]'
+                  - 'generic "Week: 2026-12; value -- streamlit-generated: 140.5; : Variable Spending ($); value: 140.5; color: Variable Spending ($)" [ref=e377]'
+                  - 'generic "Week: 2026-13; value -- streamlit-generated: 124; : Variable Spending ($); value: 124; color: Variable Spending ($)" [ref=e378]'
+                  - 'generic "Week: 2026-14; value -- streamlit-generated: 153; : Variable Spending ($); value: 153; color: Variable Spending ($)" [ref=e379]'
+                  - 'generic "Week: 2026-15; value -- streamlit-generated: 131.5; : Variable Spending ($); value: 131.5; color: Variable Spending ($)" [ref=e380]'
+                  - 'generic "Week: 2026-16; value -- streamlit-generated: 146; : Variable Spending ($); value: 146; color: Variable Spending ($)" [ref=e381]'
+                  - 'generic "Week: 2026-17; value -- streamlit-generated: 135; : Variable Spending ($); value: 135; color: Variable Spending ($)" [ref=e382]'
+                  - 'generic "Week: 2026-18; value -- streamlit-generated: 141; : Variable Spending ($); value: 141; color: Variable Spending ($)" [ref=e383]'
+                  - 'generic "Week: 2026-19; value -- streamlit-generated: 122; : Variable Spending ($); value: 122; color: Variable Spending ($)" [ref=e384]'
+                  - 'generic "Week: 2026-21; value -- streamlit-generated: 0; : Variable Spending ($); value: 0; color: Variable Spending ($)" [ref=e385]'
+                  - 'generic "Week: 2026-22; value -- streamlit-generated: 0; : Variable Spending ($); value: 0; color: Variable Spending ($)" [ref=e386]'
+                  - 'generic "Week: 2026-23; value -- streamlit-generated: 0; : Variable Spending ($); value: 0; color: Variable Spending ($)" [ref=e387]'
+                  - 'generic "Week: 2026-25; value -- streamlit-generated: 0; : Variable Spending ($); value: 0; color: Variable Spending ($)" [ref=e388]'
+                - 'generic "Symbol legend titled '' '' for fill color and stroke color with 3 values: Study Hours, Variable Spending ($), Work Hours" [ref=e418]':
+                  - generic [ref=e424]:
+                    - generic [ref=e426]:
+                      - generic:
+                        - generic: Study Hours
+                    - generic [ref=e428]:
+                      - generic:
+                        - generic: Variable Spending ($)
+                    - generic [ref=e430]:
+                      - generic:
+                        - generic: Work Hours
+          - group "Click to view actions":
+            - img [ref=e432] [cursor=pointer]

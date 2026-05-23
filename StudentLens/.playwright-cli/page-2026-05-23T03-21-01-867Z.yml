@@ -1,0 +1,121 @@
+- generic [ref=e2]:
+  - list [ref=e10]:
+    - listitem [ref=e11]:
+      - link "Overview" [ref=e13] [cursor=pointer]:
+        - /url: http://localhost:8501/
+        - generic [ref=e16]: 🏠
+        - paragraph [ref=e19]: Overview
+    - listitem [ref=e20]:
+      - link "Budget & Expenses" [ref=e22] [cursor=pointer]:
+        - /url: http://localhost:8501/budget
+        - generic [ref=e25]: 💰
+        - paragraph [ref=e28]: Budget & Expenses
+    - listitem [ref=e29]:
+      - link "Study Load" [ref=e31] [cursor=pointer]:
+        - /url: http://localhost:8501/study
+        - generic [ref=e34]: 📚
+        - paragraph [ref=e37]: Study Load
+    - listitem [ref=e38]:
+      - link "Loan Projection" [ref=e40] [cursor=pointer]:
+        - /url: http://localhost:8501/loan
+        - generic [ref=e43]: 🎓
+        - paragraph [ref=e46]: Loan Projection
+  - generic [ref=e3]:
+    - banner [ref=e50]:
+      - generic [ref=e53]:
+        - button "Deploy" [ref=e55] [cursor=pointer]:
+          - generic [ref=e57]: Deploy
+        - button "Main menu" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+    - generic [ref=e63]:
+      - heading "Overview" [level=1] [ref=e68]:
+        - text: Overview
+        - generic [ref=e69]:
+          - link "Link to heading":
+            - /url: "#overview"
+            - img
+      - heading "Wellbeing Balance Score — Academic & Financial" [level=3] [ref=e74]:
+        - text: Wellbeing Balance Score — Academic & Financial
+        - generic [ref=e75]:
+          - link "Link to heading":
+            - /url: "#wellbeing-balance-score-academic-and-financial"
+            - img
+      - generic [ref=e82]:
+        - generic [ref=e83]:
+          - paragraph [ref=e85]: 🟢 Healthy
+          - button "Help for 🟢 Healthy" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+        - paragraph [ref=e95]: 30%
+      - paragraph [ref=e102]: Set an overall budget limit in Budget & Expenses to include spending in this score.
+      - separator [ref=e107]
+      - heading "This Week vs Last Week" [level=3] [ref=e112]:
+        - text: This Week vs Last Week
+        - generic [ref=e113]:
+          - link "Link to heading":
+            - /url: "#this-week-vs-last-week"
+            - img
+      - generic [ref=e115]:
+        - generic [ref=e120]:
+          - paragraph [ref=e123]: Variable Spending
+          - paragraph [ref=e126]: $0
+        - generic [ref=e131]:
+          - paragraph [ref=e134]: Work Hours
+          - paragraph [ref=e137]: 0.0 hrs
+        - generic [ref=e142]:
+          - paragraph [ref=e145]: Study Hours
+          - paragraph [ref=e148]: 0.0 hrs
+      - separator [ref=e153]
+      - heading "Weekly Overview — Work, Study & Spending" [level=3] [ref=e158]:
+        - text: Weekly Overview — Work, Study & Spending
+        - generic [ref=e159]:
+          - link "Link to heading":
+            - /url: "#weekly-overview-work-study-and-spending"
+            - img
+      - generic [ref=e162]:
+        - generic [ref=e164]:
+          - button "Show data" [ref=e167] [cursor=pointer]:
+            - img [ref=e168]
+          - button "Fullscreen" [ref=e173] [cursor=pointer]:
+            - img [ref=e174]
+        - generic [ref=e177]:
+          - generic "Vega visualization" [ref=e178]:
+            - img [ref=e179]:
+              - generic [ref=e184]:
+                - 'generic "X-axis for a discrete scale with 1 value: 2026-21" [ref=e187]':
+                  - generic [ref=e189]:
+                    - generic:
+                      - generic: 2026-21
+                - generic "Y-axis for a linear scale with values from 0 to 0" [ref=e190]:
+                  - generic [ref=e192]:
+                    - generic:
+                      - generic: "0"
+                - generic [ref=e193]:
+                  - generic [ref=e194]:
+                    - generic:
+                      - generic:
+                        - 'generic "Week: 2026-21; value -- streamlit-generated: 0; : Work Hours; value: 0; color: Work Hours"'
+                  - generic [ref=e196]:
+                    - generic:
+                      - generic:
+                        - 'generic "Week: 2026-21; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours"'
+                  - generic [ref=e198]:
+                    - generic:
+                      - generic:
+                        - 'generic "Week: 2026-21; value -- streamlit-generated: 0; : Variable Spending ($); value: 0; color: Variable Spending ($)"'
+                - generic [ref=e200]:
+                  - 'generic "Week: 2026-21; value -- streamlit-generated: 0; : Work Hours; value: 0; color: Work Hours" [ref=e201]'
+                  - 'generic "Week: 2026-21; value -- streamlit-generated: 0; : Study Hours; value: 0; color: Study Hours" [ref=e202]'
+                  - 'generic "Week: 2026-21; value -- streamlit-generated: 0; : Variable Spending ($); value: 0; color: Variable Spending ($)" [ref=e203]'
+                - 'generic "Symbol legend titled '' '' for fill color and stroke color with 3 values: Study Hours, Variable Spending ($), Work Hours" [ref=e206]':
+                  - generic [ref=e212]:
+                    - generic [ref=e214]:
+                      - generic:
+                        - generic: Study Hours
+                    - generic [ref=e216]:
+                      - generic:
+                        - generic: Variable Spending ($)
+                    - generic [ref=e218]:
+                      - generic:
+                        - generic: Work Hours
+          - group "Click to view actions":
+            - img [ref=e220] [cursor=pointer]

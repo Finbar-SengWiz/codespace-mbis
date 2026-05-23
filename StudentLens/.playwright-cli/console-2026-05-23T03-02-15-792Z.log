@@ -1,0 +1,18 @@
+[     904ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/study/_stcore/health:0
+[     904ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/study/_stcore/host-config:0
+[  292704ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/study/_stcore/health:0
+[  292704ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/study/_stcore/host-config:0
+[  708065ms] [ERROR] WebSocket connection to 'ws://localhost:8501/_stcore/stream' failed:  @ http://localhost:8501/static/js/index.D2ZqaFuW.js:17
+[  708066ms] [ERROR] Client Error: WebSocket onerror @ http://localhost:8501/static/js/index.D2ZqaFuW.js:17
+[  708847ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/health:0
+[  708848ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/host-config:0
+[  708953ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/study/_stcore/health:0
+[  708954ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/study/_stcore/host-config:0
+[  709192ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/health:0
+[  709192ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/host-config:0
+[  709427ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/study/_stcore/health:0
+[  709428ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/study/_stcore/host-config:0
+[  709808ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/health:0
+[  709809ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/host-config:0
+[  710135ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/study/_stcore/health:0
+[  710138ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/study/_stcore/host-config:0

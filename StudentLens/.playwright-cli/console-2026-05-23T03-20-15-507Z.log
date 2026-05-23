@@ -1,0 +1,37 @@
+[     620ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/overview/_stcore/host-config:0
+[     621ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/overview/_stcore/health:0
+[    2672ms] [ERROR] The page that you have requested does not seem to exist. Running the app's main page. @ http://localhost:8501/static/js/index.D2ZqaFuW.js:21
+[    5439ms] [WARNING] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains. @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5459ms] [WARNING] WARN Dropping "fit-x" because spec has discrete width. @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5502ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5503ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5503ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5533ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5557ms] [WARNING] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains. @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5575ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5575ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5575ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5586ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5616ms] [WARNING] WARN Scale bindings are currently only supported for scales with unbinned, continuous domains. @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5647ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5648ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5648ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[    5656ms] [WARNING] WARN Infinite extent for field "value -- streamlit-generated": [Infinity, -Infinity] @ http://localhost:8501/static/js/embed.Bqebd2RE.js:0
+[   69031ms] [ERROR] WebSocket connection to 'ws://localhost:8501/_stcore/stream' failed:  @ http://localhost:8501/static/js/index.D2ZqaFuW.js:17
+[   69031ms] [ERROR] Client Error: WebSocket onerror @ http://localhost:8501/static/js/index.D2ZqaFuW.js:17
+[   69313ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/health:0
+[   69314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/host-config:0
+[   69418ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/overview/_stcore/health:0
+[   69419ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/overview/_stcore/host-config:0
+[   69656ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/health:0
+[   69661ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/host-config:0
+[   69865ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/overview/_stcore/health:0
+[   69865ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/overview/_stcore/host-config:0
+[   70203ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/health:0
+[   70204ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/host-config:0
+[   70595ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/overview/_stcore/health:0
+[   70595ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/overview/_stcore/host-config:0
+[   71533ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/health:0
+[   71533ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:8501/_stcore/host-config:0
+[   72417ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/overview/_stcore/host-config:0
+[   72419ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:8501/overview/_stcore/health:0

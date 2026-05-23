@@ -1,0 +1,128 @@
+- generic [ref=e2]:
+  - list [ref=e10]:
+    - listitem [ref=e11]:
+      - link "Overview" [ref=e13] [cursor=pointer]:
+        - /url: http://localhost:8501/
+        - generic [ref=e16]: 🏠
+        - paragraph [ref=e19]: Overview
+    - listitem [ref=e20]:
+      - link "Budget & Expenses" [ref=e22] [cursor=pointer]:
+        - /url: http://localhost:8501/budget
+        - generic [ref=e25]: 💰
+        - paragraph [ref=e28]: Budget & Expenses
+    - listitem [ref=e29]:
+      - link "Study Load" [ref=e31] [cursor=pointer]:
+        - /url: http://localhost:8501/study
+        - generic [ref=e34]: 📚
+        - paragraph [ref=e37]: Study Load
+    - listitem [ref=e38]:
+      - link "Loan Projection" [ref=e40] [cursor=pointer]:
+        - /url: http://localhost:8501/loan
+        - generic [ref=e43]: 🎓
+        - paragraph [ref=e46]: Loan Projection
+  - generic [ref=e3]:
+    - banner [ref=e50]:
+      - generic [ref=e53]:
+        - button "Deploy" [ref=e55] [cursor=pointer]:
+          - generic [ref=e57]: Deploy
+        - button "Main menu" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+    - generic [ref=e63]:
+      - heading "Budget & Expenses" [level=1] [ref=e68]:
+        - text: Budget & Expenses
+        - generic [ref=e69]:
+          - link "Link to heading":
+            - /url: "#budget-and-expenses"
+            - img
+      - generic [ref=e71]:
+        - paragraph [ref=e75]: View
+        - radiogroup "View" [ref=e76] [cursor=pointer]:
+          - generic [ref=e77]:
+            - radio "Weekly" [checked]
+            - paragraph [ref=e82]: Weekly
+          - generic [ref=e83]:
+            - radio "Monthly"
+            - paragraph [ref=e88]: Monthly
+      - separator [ref=e93]
+      - generic [ref=e95]:
+        - generic [ref=e97]:
+          - heading "Add Income" [level=3] [ref=e102]:
+            - text: Add Income
+            - generic [ref=e103]:
+              - link "Link to heading":
+                - /url: "#add-income"
+                - img
+          - generic [ref=e105]:
+            - paragraph [ref=e109]: Source
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]: Student Loan Living Costs
+                - combobox "Selected Student Loan Living Costs. Source" [active] [ref=e302]
+              - img "open" [ref=e117]
+          - generic [ref=e121]:
+            - generic [ref=e123]:
+              - paragraph [ref=e127]: Amount ($)
+              - generic [ref=e128]:
+                - spinbutton "Amount ($)" [ref=e131]: "0.01"
+                - generic [ref=e132]:
+                  - button [disabled] [ref=e133]:
+                    - img [ref=e134]
+                  - button [ref=e136] [cursor=pointer]:
+                    - img [ref=e137]
+            - generic [ref=e140]:
+              - paragraph [ref=e144]: Date
+              - textbox "Select a date." [ref=e148]:
+                - /placeholder: YYYY/MM/DD
+                - text: 2026/05/23
+              - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+              - paragraph: Selected date is 2026/05/23. Select the second date.
+            - button "Add Income" [ref=e169] [cursor=pointer]:
+              - paragraph [ref=e173]: Add Income
+        - generic [ref=e175]:
+          - heading "Add Expense" [level=3] [ref=e180]:
+            - text: Add Expense
+            - generic [ref=e181]:
+              - link "Link to heading":
+                - /url: "#add-expense"
+                - img
+          - generic [ref=e184]:
+            - generic [ref=e186]:
+              - paragraph [ref=e190]: Category
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]: Rent
+                  - combobox "Selected Rent. Category" [ref=e196]
+                - img "open" [ref=e198]
+            - generic [ref=e201]:
+              - paragraph [ref=e205]: Amount ($)
+              - generic [ref=e206]:
+                - spinbutton "Amount ($)" [ref=e209]: "0.01"
+                - generic [ref=e210]:
+                  - button [disabled] [ref=e211]:
+                    - img [ref=e212]
+                  - button [ref=e214] [cursor=pointer]:
+                    - img [ref=e215]
+            - generic [ref=e218]:
+              - paragraph [ref=e222]: Date
+              - textbox "Select a date." [ref=e226]:
+                - /placeholder: YYYY/MM/DD
+                - text: 2026/05/23
+              - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+              - paragraph: Selected date is 2026/05/23. Select the second date.
+            - button "Add Expense" [ref=e230] [cursor=pointer]:
+              - paragraph [ref=e234]: Add Expense
+      - separator [ref=e253]
+      - heading "Income Entries" [level=3] [ref=e258]:
+        - text: Income Entries
+        - generic [ref=e259]:
+          - link "Link to heading":
+            - /url: "#income-entries"
+            - img
+      - paragraph [ref=e264]: No income entries for this period.
+      - heading "Expense Entries" [level=3] [ref=e269]:
+        - text: Expense Entries
+        - generic [ref=e270]:
+          - link "Link to heading":
+            - /url: "#expense-entries"
+            - img
+      - paragraph [ref=e275]: No expense entries for this period.

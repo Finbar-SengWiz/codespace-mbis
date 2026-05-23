@@ -1,0 +1,10 @@
+[project]
+name = "studentlens"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.0.3",
+    "pytest>=9.0.3",
+    "streamlit>=1.57.0",
+]

@@ -1,0 +1,40 @@
+- generic [ref=e2]:
+  - generic [ref=e7]:
+    - button "keyboard_double_arrow_left" [ref=e76] [cursor=pointer]:
+      - generic [ref=e78]: keyboard_double_arrow_left
+    - list [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Overview" [ref=e13] [cursor=pointer]:
+          - /url: http://localhost:8501/
+          - generic [ref=e16]: 🏠
+          - paragraph [ref=e19]: Overview
+      - listitem [ref=e20]:
+        - link "Budget & Expenses" [active] [ref=e22] [cursor=pointer]:
+          - /url: http://localhost:8501/budget
+          - generic [ref=e25]: 💰
+          - paragraph [ref=e28]: Budget & Expenses
+      - listitem [ref=e29]:
+        - link "Study Load" [ref=e31] [cursor=pointer]:
+          - /url: http://localhost:8501/study
+          - generic [ref=e34]: 📚
+          - paragraph [ref=e37]: Study Load
+      - listitem [ref=e38]:
+        - link "Loan Projection" [ref=e40] [cursor=pointer]:
+          - /url: http://localhost:8501/loan
+          - generic [ref=e43]: 🎓
+          - paragraph [ref=e46]: Loan Projection
+  - generic [ref=e3]:
+    - banner [ref=e50]:
+      - generic [ref=e53]:
+        - button "Deploy" [ref=e55] [cursor=pointer]:
+          - generic [ref=e57]: Deploy
+        - button "Main menu" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+    - generic [ref=e63]:
+      - heading "Budget & Expenses" [level=1] [ref=e83]:
+        - text: Budget & Expenses
+        - generic [ref=e84]:
+          - link "Link to heading":
+            - /url: "#budget-and-expenses"
+            - img
+      - paragraph [ref=e89]: Income and expense tracking will appear here.

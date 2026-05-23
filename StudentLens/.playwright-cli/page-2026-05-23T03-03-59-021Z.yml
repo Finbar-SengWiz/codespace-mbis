@@ -1,0 +1,114 @@
+- generic [ref=e2]:
+  - list [ref=e10]:
+    - listitem [ref=e11]:
+      - link "Overview" [ref=e13] [cursor=pointer]:
+        - /url: http://localhost:8501/
+        - generic [ref=e16]: 🏠
+        - paragraph [ref=e19]: Overview
+    - listitem [ref=e20]:
+      - link "Budget & Expenses" [ref=e22] [cursor=pointer]:
+        - /url: http://localhost:8501/budget
+        - generic [ref=e25]: 💰
+        - paragraph [ref=e28]: Budget & Expenses
+    - listitem [ref=e29]:
+      - link "Study Load" [ref=e31] [cursor=pointer]:
+        - /url: http://localhost:8501/study
+        - generic [ref=e34]: 📚
+        - paragraph [ref=e37]: Study Load
+    - listitem [ref=e38]:
+      - link "Loan Projection" [ref=e40] [cursor=pointer]:
+        - /url: http://localhost:8501/loan
+        - generic [ref=e43]: 🎓
+        - paragraph [ref=e46]: Loan Projection
+  - generic [ref=e3]:
+    - banner [ref=e50]:
+      - generic [ref=e53]:
+        - button "Deploy" [ref=e64] [cursor=pointer]:
+          - generic [ref=e66]: Deploy
+        - button "Main menu" [ref=e68] [cursor=pointer]:
+          - img [ref=e69]
+    - generic [ref=e72]:
+      - heading "Study Load" [level=1] [ref=e77]:
+        - text: Study Load
+        - generic [ref=e78]:
+          - link "Link to heading":
+            - /url: "#study-load"
+            - img
+      - heading "Upcoming Deadlines (next 7 days)" [level=3] [ref=e83]:
+        - text: Upcoming Deadlines (next 7 days)
+        - generic [ref=e84]:
+          - link "Link to heading":
+            - /url: "#upcoming-deadlines-next-7-days"
+            - img
+      - paragraph [ref=e89]: No tasks due in the next 7 days.
+      - separator [ref=e94]
+      - heading "Add Task" [level=3] [ref=e99]:
+        - text: Add Task
+        - generic [ref=e100]:
+          - link "Link to heading":
+            - /url: "#add-task"
+            - img
+      - generic [ref=e103]:
+        - generic [ref=e105]:
+          - generic [ref=e107]:
+            - generic [ref=e109]:
+              - paragraph [ref=e113]: Course
+              - textbox "Course" [ref=e116]:
+                - /placeholder: ""
+            - generic [ref=e118]:
+              - paragraph [ref=e122]: Task Name
+              - textbox "Task Name" [ref=e125]:
+                - /placeholder: ""
+            - generic [ref=e127]:
+              - paragraph [ref=e131]: Task Type
+              - generic [ref=e133]:
+                - generic [ref=e134]:
+                  - generic [ref=e135]: Assignment
+                  - combobox "Selected Assignment. Task Type" [ref=e137]
+                - img "open" [ref=e139]
+            - generic [ref=e142]:
+              - paragraph [ref=e146]: Priority
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - generic [ref=e150]: None
+                  - combobox "Selected None. Priority" [ref=e152]
+                - img "open" [ref=e154]
+          - generic [ref=e157]:
+            - generic [ref=e159]:
+              - paragraph [ref=e163]: Due Date (optional)
+              - textbox "Select a date." [ref=e167]:
+                - /placeholder: YYYY/MM/DD
+              - paragraph: Press the down arrow key to interact with the calendar and select a date. Press the escape button to close the calendar.
+              - paragraph
+            - generic [ref=e169]:
+              - paragraph [ref=e173]: Estimated Hours
+              - generic [ref=e174]:
+                - spinbutton "Estimated Hours" [ref=e177]: "0.0"
+                - generic [ref=e178]:
+                  - button [disabled] [ref=e179]:
+                    - img [ref=e180]
+                  - button [ref=e182] [cursor=pointer]:
+                    - img [ref=e183]
+            - generic [ref=e186]:
+              - paragraph [ref=e190]: Status
+              - generic [ref=e192]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]: To Do
+                  - combobox "Selected To Do. Status" [ref=e196]
+                - img "open" [ref=e198]
+        - button "Add Task" [active] [ref=e203] [cursor=pointer]:
+          - paragraph [ref=e207]: Add Task
+        - alert [ref=e337]:
+          - paragraph [ref=e342]: Task 'Marketing Plan' added.
+      - separator [ref=e212]
+      - heading "All Tasks" [level=3] [ref=e217]:
+        - text: All Tasks
+        - generic [ref=e218]:
+          - link "Link to heading":
+            - /url: "#all-tasks"
+            - img
+      - group [ref=e345]:
+        - generic "keyboard_arrow_right MGMT201 — Marketing Plan (To Do)" [ref=e346] [cursor=pointer]:
+          - generic [ref=e347]:
+            - generic [ref=e349]: keyboard_arrow_right
+            - paragraph [ref=e352]: MGMT201 — Marketing Plan (To Do)
